@@ -143,7 +143,7 @@ public class System_ {
         newOwner.addVehicle(vehicle);
     }
 
-    public Record_ generateYearlyRecords(int year) {
+    public Record_ generateYearlyRecord(int year) {
         Record_ rec = new Record_(year);
         for (Person person : people) {
             if(person.getVehicles() != null) {

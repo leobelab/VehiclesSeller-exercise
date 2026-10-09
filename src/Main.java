@@ -111,7 +111,7 @@ public class Main {
 
         System.out.println("\n===== YEARLY RECORDS =====");
 
-        Record_ r2025 = system.generateYearlyRecords(2025);
+        Record_ r2025 = system.generateYearlyRecord(2025);
         List<OwnerRecord> ownRecs2025 = r2025.getOwnerRecords();
         for (OwnerRecord r : ownRecs2025) {
             System.out.println("2025 RECORD for: " + r.getOwner().getName());
@@ -121,9 +121,7 @@ public class Main {
 
         system.sellVehicle(petrolCar, john);
 
-        system.generateYearlyRecords(2026);
-
-        Record_ r2026 = system.generateYearlyRecords(2025);
+        Record_ r2026 = system.generateYearlyRecord(2026);
         List<OwnerRecord> ownRecs2026 = r2025.getOwnerRecords();
         for (OwnerRecord r : ownRecs2026) {
             System.out.println("2026 RECORD for: " + r.getOwner().getName());

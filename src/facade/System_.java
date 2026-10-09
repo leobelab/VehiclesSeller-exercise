@@ -96,7 +96,7 @@ public class System_ {
         }
     }
 
-    public void editVehicle(String plate_num, String model, String maker, Person owner, int engineDispl) {
+    public void editMotorcycle(String plate_num, String model, String maker, Person owner, int engineDispl) {
         for (Vehicle vehicle : vehicles) {
             if(vehicle.getPlate_num().equals(plate_num)) {
                 if(vehicle instanceof Motorcycle m) {

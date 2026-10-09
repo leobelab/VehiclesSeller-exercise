@@ -68,7 +68,7 @@ public class Main {
 
         System.out.println("\n===== EDIT VEHICLES =====");
 
-        system.editVehicle("M001", "MT-09", "Yamaha", john, 890);
+        system.editMotorcycle("M001", "MT-09", "Yamaha", john, 890);
 
         System.out.println("Motorcycle model: "
                 + motorcycle.getModel());
